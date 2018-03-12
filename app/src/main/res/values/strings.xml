@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">DogStagram</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Photo</string>
+    <string name="title_notifications">Slide</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <string name="toast_login_with">%1$s : %2$s</string>
+    <string name="text_google">Google</string>
+    <string name="text_facebook">Facebook</string>
+    <string name="button_start_auto_scroll">Start Auto Scroll</string>
+    <string name="button_stop_auto_scroll">Stop Auto Scroll</string>
+    <string name="button_done">Done</string>
+
+    <!-- Facebook Sign in -->
+    <string name="facebook_app_id">574516372896708</string>
+    <string name="fb_login_protocol_scheme">fb574516372896708</string>
+</resources>

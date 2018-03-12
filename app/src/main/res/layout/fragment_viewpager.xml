@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout_swipe"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_ffffff"
+    android:orientation="vertical">
+
+    <com.gigamole.infinitecycleviewpager.HorizontalInfiniteCycleViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:icvp_center_page_scale_offset="30dp"
+        app:icvp_max_page_scale="0.9"
+        app:icvp_medium_scaled="true"
+        app:icvp_min_page_scale="0.7"
+        app:icvp_min_page_scale_offset="5dp"
+        app:icvp_scroll_duration="2000" />
+
+    <Button
+        android:id="@+id/button_auto_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="60dp"
+        android:text="@string/button_start_auto_scroll" />
+</FrameLayout>
